@@ -38,3 +38,34 @@ nav li:last-child {
   margin-left:auto;
   margin-right:auto;
 }
+/* dropdown hover*/
+@media (min-width: 768px) {
+  ul.nav li.dropdown:hover > ul.dropdown-menu {
+    display: block;
+  }
+  .navbar .navbar-nav {
+      display: inline-block;
+      float: none;
+      vertical-align: top;
+  }
+
+  .navbar .navbar-collapse {
+      text-align: center;
+  }
+
+  .navbar-nav>li{
+    border-right: 1px solid #CCCCCC;
+  }
+  .navbar-nav>li:last-child{
+     border: none;
+  }
+}
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
