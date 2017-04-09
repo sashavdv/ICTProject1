@@ -4,50 +4,115 @@
     <meta charset="UTF-8">
     <title>Travel guide</title>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="./css/index.css" rel="stylesheet" >
+    <link href="./css/business-casual.css" rel="stylesheet" >
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <link href="./css/index.css" rel="stylesheet" >
 
 </head>
 <body>
-    <div class="container">
 
-      <!-- navbar navbar-default -->
-      <div class="navbar navbar-default" role="navigation">
+      <div class="brand">Travel bird</div>
+      <div class="address-bar">3481 Melrose Place | Beverly Hills, CA 90210 | 123.456.7890</div>
 
-        <!-- navbar-header -->
-        <div class="navbar-header">
+      <!-- Navigation -->
+      <nav class="navbar navbar-default" role="navigation">
+          <div class="container">
+              <!-- Brand and toggle get grouped for better mobile display -->
+              <div class="navbar-header">
+                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                      <span class="sr-only">Toggle navigation</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                  </button>
+                  <!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->
+                  <a class="navbar-brand" href="index.html">Travel bird</a>
+              </div>
+              <!-- Collect the nav links, forms, and other content for toggling -->
+              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                  <ul class="nav navbar-nav ">
 
-          <span class="navbar-brand">Travel site</span>
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-
-          </button>
+                      <li>
+                          <a href="#">Home</a>
+                      </li>
 
 
-        </div><!-- /navbar-header -->
+                      <li>
+                          <a href="#">Steden</a>
+                      </li>
 
-        <!-- navbar -->
-        <div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
-            <li role="presentation"><a href="http://learnwebcode.com/tutorial-files/bootstrap-responsive-layout/#">Home</a></li>
-              <li role="presentation" class="dropdown">
-                <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
-                    Steden <span class="caret"></span>
-        	      </a>
-                <ul class="dropdown-menu">
-                </ul>
-              </li>
-            <li role="presentation"><a href="http://learnwebcode.com/tutorial-files/bootstrap-responsive-layout/#">Contact</a></li>
-          </ul>
-        </div><!-- /navbar -->
+                      <li>
+                          <a href="#">Contact</a>
+                      </li>
 
-      </div><!-- /navbar navbar-default -->
+                  </ul>
+              </div>
+              <!-- /.navbar-collapse -->
+          </div>
+          <!-- /.container -->
+      </nav>
 
-    </div>
+      <div class="container">
 
+
+
+          <div class="row">
+              <div class="box">
+                  <div class="col-lg-12">
+                      <hr>
+                      <h2 class="intro-text text-center">Build a website
+                          <strong>worth visiting</strong>
+                      </h2>
+                      <hr>
+                      <img class="img-responsive img-border img-left" src="img/intro-pic.jpg" alt="">
+                      <hr class="visible-xs">
+                      <p>The boxes used in this template are nested inbetween a normal Bootstrap row and the start of your column layout. The boxes will be full-width boxes, so if you want to make them smaller then you will need to customize.</p>
+                      <p>A huge thanks to <a href="http://join.deathtothestockphoto.com/" target="_blank">Death to the Stock Photo</a> for allowing us to use the beautiful photos that make this template really come to life. When using this template, make sure your photos are decent. Also make sure that the file size on your photos is kept to a minumum to keep load times to a minimum.</p>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc placerat diam quis nisl vestibulum dignissim. In hac habitasse platea dictumst. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                  </div>
+              </div>
+          </div>
+
+          <div class="row">
+              <div class="box">
+                  <div class="col-lg-12">
+                      <hr>
+                      <h2 class="intro-text text-center">Beautiful boxes
+                          <strong>to showcase your content</strong>
+                      </h2>
+                      <hr>
+                      <p>Use as many boxes as you like, and put anything you want in them! They are great for just about anything, the sky's the limit!</p>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc placerat diam quis nisl vestibulum dignissim. In hac habitasse platea dictumst. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                  </div>
+              </div>
+          </div>
+
+      </div>
+      <!-- /.container -->
+
+      <footer>
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-12 text-center">
+                      <p>Copyright &copy; Your Website 2014</p>
+                  </div>
+              </div>
+          </div>
+      </footer>
+
+      <!-- jQuery -->
+      <script src="js/jquery.js"></script>
+
+      <!-- Bootstrap Core JavaScript -->
+      <script src="js/bootstrap.min.js"></script>
+
+      <!-- Script to Activate the Carousel -->
+      <script>
+      $('.carousel').carousel({
+          interval: 5000 //changes the speed
+      })
+      </script>
 </body>
 </html>
