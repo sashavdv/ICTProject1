@@ -47,7 +47,7 @@ nav li:last-child {
   ul.nav li.dropdown:hover > ul.dropdown-menu {
     display: block;
   }
-  /*.navbar .navbar-nav {
+/*  .navbar .navbar-nav {
     display: inline-block;
 float: none;
 vertical-align: top;
