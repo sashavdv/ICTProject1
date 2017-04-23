@@ -37,12 +37,16 @@ nav li:last-child {
   margin-left:auto;
   margin-right:auto;
 }
-
+#mapid {
+  width: 600px;
+  height: 400px;
+}
 
 .navbar .navbar-collapse {
   text-align: center;
 }
 /* dropdown hover*/
+
 @media (min-width: 768px) {
   ul.nav li.dropdown:hover > ul.dropdown-menu {
     display: block;
