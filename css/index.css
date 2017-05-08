@@ -87,14 +87,12 @@ vertical-align: top;
   }
 
 }
-/* Small devices (tablets, 768px and up) */
-@media (min-width: 768px) {
 
   #mapid {
     width: 600px;
     height: 400px;
   }
-}
+
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
@@ -147,7 +145,6 @@ vertical-align: top;
 
 .list-group .fa-facebook{
 	background-color: #4267b2;
-  border-radius: 5px;
   border-color: gray;
 }
 
