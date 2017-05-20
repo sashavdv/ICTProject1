@@ -57,12 +57,6 @@ nav li:last-child {
   ul.nav li.dropdown:hover > ul.dropdown-menu {
     display: block;
   }
-
-/*  .navbar .navbar-nav {
-    display: inline-block;
-float: none;
-vertical-align: top;
-  }*/
   .navbar-nav {
     float:none;
     margin:0 auto;
@@ -86,13 +80,11 @@ vertical-align: top;
      border: none;
   }
 
-}
-
   #mapid {
     width: 600px;
     height: 400px;
   }
-
+}
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
