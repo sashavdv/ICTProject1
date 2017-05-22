@@ -149,3 +149,7 @@ opacity: 0.9;
 figcaption{
   text-align:center;
   }
+  .grey a {
+    text-decoration: none;
+    color: rgba(255,255,255,0.9);
+ }

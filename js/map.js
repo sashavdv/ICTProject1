@@ -9,26 +9,20 @@
   }).addTo(mymap);
 
           /*Birmingham*/
-    L.marker([52.48,-1.9]).addTo(mymap).on('click', function(e){ window.location.href = 'Birmingham.html';});
+    L.marker([52.48,-1.9]).addTo(mymap).on('click', function(e){ window.location.href = 'Birmingham.html';}).bindTooltip("Birmingham");
           /*Edinburgh*/
-    L.marker([55.94, -3.19]).addTo(mymap).on('click', function(e){ window.location.href = 'Edinburgh.html';});
+    L.marker([55.94, -3.19]).addTo(mymap).on('click', function(e){ window.location.href = 'Edinburgh.html';}).bindTooltip("Edinburgh");
           /* Liverpool */
-    L.marker([53.41,-2.98]).addTo(mymap).on('click', function(e){ window.location.href = 'Liverpool.html';});
+    L.marker([53.41,-2.98]).addTo(mymap).on('click', function(e){ window.location.href = 'Liverpool.html';}).bindTooltip("Liverpool");
           /*Londen*/
-    L.marker([51.5, -0.09]).addTo(mymap).on('click', function(e){ window.location.href = 'Londen.html';});
+    L.marker([51.5, -0.09]).addTo(mymap).on('click', function(e){ window.location.href = 'Londen.html';}).bindTooltip("Londen");
           /*Manchester*/
-    L.marker([53.47,-2.29]).addTo(mymap).on('click', function(e){ window.location.href = 'Manchester.html';});
+    L.marker([53.47,-2.29]).addTo(mymap).on('click', function(e){ window.location.href = 'Manchester.html';}).bindTooltip("Manchester");
           /*Oxford*/
-    L.marker([51.75,-1.28]).addTo(mymap).on('click', function(e){ window.location.href = 'Oxford.html';});
+    L.marker([51.75,-1.28]).addTo(mymap).on('click', function(e){ window.location.href = 'Oxford.html';}).bindTooltip("Oxford");
 
 
-  var popup = L.popup();
 
-  function onMapClick(e) {
-    popup
-      .setLatLng(e.latlng)
-      .setContent("You clicked the map at " + e.latlng.toString())
-      .openOn(mymap);
-  }
+
 
   mymap.on('click', onMapClick);
