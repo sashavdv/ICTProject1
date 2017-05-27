@@ -120,6 +120,7 @@ nav li:last-child {
 .social .list-group a{
 	color: white;
 	text-decoration: none;
+	
 }
 
 .list-group{
@@ -133,12 +134,34 @@ nav li:last-child {
 	line-height: 40px;
 	font-size: 25px;
 	text-align: center;
+
 }
 
 .list-group .fa-facebook{
 	background-color: #4267b2;
   border-color: gray;
+
 }
+
+.list-group .fa-facebook:hover{
+	width:45px;
+	
+}
+.list-group .fa-instagram{
+	background-color: #bc2a8d;
+	
+}
+
+.list-group .fa-instagram:hover{
+	width: 45px;
+}
+.list-group .fa-google{
+	background-color: orange;
+}
+.list-group .fa-google:hover{
+	width: 45px;
+}
+
 
 .footer{
 background-color: rgba(255,255,255,0.9);
