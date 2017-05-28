@@ -111,7 +111,7 @@ nav li:last-child {
 
  .social{
 	position: fixed;
-	top: 25%;
+	top: 35%;
 	left: 0px;
 	float: left;
 	z-index: 700;
@@ -126,6 +126,10 @@ nav li:last-child {
 .list-group{
 	list-style: none;
 
+}
+
+.list-group li{
+	float:none;
 }
 
 .list-group i{
